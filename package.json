@@ -1,0 +1,21 @@
+{
+  "name": "wyzetalk-assessment-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/djvistasa/wyzetalk-assessment-backend.git",
+  "author": "Sive Mwanda",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
