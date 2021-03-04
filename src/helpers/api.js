@@ -41,7 +41,7 @@ async function makeApiCall(
       callBack(response);
     }
 
-    return handleApiSuccess(response);
+    return handleApiSuccess(response.data || response);
   } catch (error) {
     return handleApiError(error);
   }
